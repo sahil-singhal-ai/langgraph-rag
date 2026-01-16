@@ -1,4 +1,3 @@
-from cache import get_vectorstore
 import requests
 import gc
 import torch
