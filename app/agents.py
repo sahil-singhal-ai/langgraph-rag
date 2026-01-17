@@ -13,7 +13,9 @@ def retriever_agent(state):
         "retrieved_docs": docs
     }
 
-def answer_agent(state):
+#answer agent generates final answer using llm
+def answer_agent(state,llm):
+
     question = state["question"]
     docs = state["retrieved_docs"]
 
@@ -40,4 +42,3 @@ Give only the answer. Do not repeat the question. Do not add extra text.
         **state,
         "answer": response
     }
-
