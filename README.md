@@ -90,7 +90,7 @@ git clone https://github.com/sahil-singhal-ai/langgraph-rag.git
 cd langgraph-rag
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ### Usage
