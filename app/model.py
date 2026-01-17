@@ -1,4 +1,4 @@
-
+#lazily load and cache LLM to avoid import-time initialization
 import torch
 from transformers import (
     AutoTokenizer,
